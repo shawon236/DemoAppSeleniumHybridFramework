@@ -29,7 +29,7 @@ public class RegistrationTest extends Base {
 		driver = browserInialyze(prop.getProperty("browser"), prop.getProperty("url"));
 		
 		HomePage homePage = new HomePage(driver);
-		//homePage.clickOnMyAccount();
+		//homePage.clickOnMyAccount(); //Clean the code
 		registerPage = homePage.navigateToRegisterPage();
 			//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			//driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(5));
